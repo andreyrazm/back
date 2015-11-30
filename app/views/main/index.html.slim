@@ -1,0 +1,4 @@
+#container data-entries="#{Entry.all.to_json}"
+  | Loading...
+
+/=content_tag 'div', 'loading..',id: 'container', data:{entries: Entry.all}

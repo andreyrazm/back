@@ -1,0 +1,10 @@
+h1 Raffler with skim
+
+form#new_entry
+  input#new_entry_name type="text" name= "name"
+  input type="submit" value="Add"
+
+ul#entry_list
+
+
+button#draw_winner Draw Winner
